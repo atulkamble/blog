@@ -15,3 +15,12 @@ ls
 
 //Install NVM
 [nvm-windows](https://github.com/coreybutler/nvm-windows)
+
+//Started Working on Project
+code .
+npm install cypress --save-dev
+npm audit fix
+npm fund
+git add --all
+git commit -m "Removed Vulnerabilities"
+git push origin main
