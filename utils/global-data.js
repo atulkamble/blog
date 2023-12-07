@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Atul Kamble';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Atul's Cloud Newsletter';
+    : 'Cloud Newsletter';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved. Copyright © 2023';
